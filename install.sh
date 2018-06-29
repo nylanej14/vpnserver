@@ -1,9 +1,9 @@
 #--------------------------------------------------
 #Softether auto install script
 #Debian and Ubuntu
-#Created May 25, 2018
+#Created June 29, 2018
 #Latest Softether Server Version for May 2018 v4.27-9667-beta-2018.05.26-tree
-#Coded by Jayson Velagio
+#Coded by Jordan Lo
 #Open Source Project From https://www.softether.org/
 #From university of Tsukuba, Japan
 #--------------------------------------------------
@@ -39,7 +39,7 @@ update-rc.d vpnserver defaults
 cd /usr/local/vpnserver
 echo ---------------------------------------------
 echo  -e "\033[32;5mVPN SERVER INSTALLED SUCCESSFULLY!\033[0m"
-echo "SoftEther auto installer by JAYSON VELAGIO"
+echo "SoftEther auto installer by JORDAN LO"
 echo "vpncmd is at /usr/local/vpnserver"
 echo ---------------Commands----------------------
 echo /etc/init.d/vpnserver start - to start
